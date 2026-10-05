@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=10
+        var b=5;
+        document.write("Arithmetic operators:=="+ "<br>"); 
+        document.write("=========================="+ "<br>"); 
+        document.write("Addition: " + (a + b) + "<br>"); 
+        document.write("Subtraction: " + (a - b) + "<br>");
+        document.write("Multiplication: " + (a * b) + "<br>");
+        document.write("Division: " + (a / b) + "<br>"); 
+        document.write("Remainder: " + (a % b) + "<br>"); 
+        document.write("Power: " + (a ** b) + "<br>");
+
+        a++;
+        document.write("After Increment: " + a + "<br>");
+        a--; 
+        document.write("After Decrement: " + a + "<br>");
+
+        document.write("Relational  operators:=="+ "<br>"); 
+        document.write("=========================="+ "<br>"); 
+        document.write("a == b: " + (a == b) + "<br>"); 
+        document.write("a === b: " + (a === b) + "<br>");
+        document.write("a != b: " + (a != b) + "<br>");
+        document.write("a !== b: " + (a !== b) + "<br>");
+        document.write("a > b: " + (a > b) + "<br>"); 
+        document.write("a < b: " + (a < b) + "<br>"); 
+        document.write("a >= b: " + (a >= b) + "<br>"); 
+        document.write("a <= b: " + (a <= b) + "<br>");
+
+        document.write("Logical  operators:=="+ "<br>"); 
+        document.write("=========================="+ "<br>"); 
+        document.write("Logical AND (&&): " + (a > b && a > 0) + "<br>"); 
+        document.write("Logical OR (||): " + (a < b || a > 0) + "<br>"); 
+        document.write("Logical NOT (!): " + !(a > b) + "<br>");
+
+        document.write("Assignment  operators:=="+ "<br>"); 
+        document.write("=========================="+ "<br>"); 
+        // = 
+        a = b; 
+        document.write("Assignment (=): " + a + "<br>");
+        // += 
+        a = 10;
+        a += b;
+        document.write("Addition Assignment (+=): " + a + "<br>");
+        // -= 
+        a = 10;
+        a -= b;
+        document.write("Subtraction Assignment (-=): " + a + "<br>"); 
+        // *=
+        a = 10;
+        a *= b; 
+        document.write("Multiplication Assignment (*=): " + a + "<br>"); 
+        // /= 
+        a = 10;
+        a /= b;
+        document.write("Division Assignment (/=): " + a + "<br>"); 
+        // %= 
+        a = 10;
+        a %= b;
+        document.write("Remainder Assignment (%=): " + a + "<br>"); 
+        // **= 
+        a = 10;
+        a **= b;
+        document.write("Exponentiation Assignment (**=): " + a + "<br>");
+
+
+        
+        document.write("Bitwise  operators:=="+ "<br>"); 
+        document.write("=========================="+ "<br>"); 
+        a=10;
+        b=5;
+        // Bitwise AND 
+        document.write("Bitwise AND (&): " + (a & b) + "<br>"); 
+        // Bitwise OR 
+        document.write("Bitwise OR (|): " + (a | b) + "<br>"); 
+        //Bitwise XOR
+        document.write("Bitwise XOR (^): " + (a ^ b) + "<br>");
+        // Bitwise NOT
+        document.write("Bitwise NOT (~): " + (~a) + "<br>"); 
+        // Left Shift 
+        document.write("Left Shift (<<): " + (a << 1) + "<br>");
+        // Right Shift 
+        document.write("Right Shift (>>): " + (a >> 1) + "<br>");
+        // Unsigned Right Shift 
+         document.write("Unsigned Right Shift (>>>): " + (a >>> 1) + "<br>");
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task.css">
+</head>
+<body>
+    <div id="card1" class="card">
+        <h3>Average of 3 Numbers</h3>
+       <label>Enter Num1:</label>
+       <input type="text" placeholder="Enter number" id="num1" value="10">
+       <label>Enter Num2:</label>
+       <input type="text" placeholder="Enter number" id="num2" value="20">
+       <label>Enter Num3:</label>
+       <input type="text" placeholder="Enter number" id="num3" value="30">
+       <label>Result:</label>
+       <input type="text" id="res1">
+       <button onclick="displayAvg()"> Average</button>
+    </div>
+
+
+    <div id="card2" class="card">
+        <h3>Average of 3 Numbers Using DOM</h3>
+       <label>Enter Num1 :</label>
+       <input type="text" placeholder="Enter number" id="num4">
+       <label>Enter Num2 :</label>
+       <input type="text" placeholder="Enter number" id="num5">
+       <label>Enter Num3 :</label>
+       <input type="text" placeholder="Enter number" id="num6">
+       <label>Result:</label>
+       <input type="text" id="res2">
+       <button onclick="displayAvgEx()"> Average</button>
+    </div>
+
+    <div id="card3" class="card">
+       <h3>Sum of Natural Numbers</h3>
+       <label>Enter Number :</label>
+       <input type="text" placeholder="Enter number" id="sum">
+       <label>Result:</label>
+       <input type="text" id="res3">
+       <button onclick="sumNatural()">Sum</button>
+    </div>
+
+
+    <div id="card4" class="card">
+       <h3>Average of Natural Numbers</h3>
+       <label>Enter Number :</label>
+       <input type="text" placeholder="Enter number" id="avg">
+       <label>Result:</label>
+       <input type="text" id="res4">
+       <button onclick="avgNatural()">Average</button>
+    </div>
+
+
+    <div id="card5" class="card">
+       <h3>Profit Percentage</h3>
+       <label>Enter Cost Price :</label>
+       <input type="text" placeholder="Enter number" id="cost">
+       <label>Enter Selling Price :</label>
+       <input type="text" placeholder="Enter number" id="selling">
+       <label>Profit Percentge:</label>
+       <input type="text" id="res5">
+       <button onclick="displayProfit()">Result</button>
+    </div>
+
+
+    <div id="card6" class="card">
+       <h3>Simple Interest</h3>
+       <label>Enter Principal Amount :</label>
+       <input type="text" placeholder="Enter principal amt" id="principal">
+       <label>Enter Time :</label>
+       <input type="text" placeholder="Enter time" id="time">
+       <label>Enter Rate of Interest :</label>
+       <input type="text" placeholder="Enter rate" id="rate">
+       <label>Simple Interest:</label>
+       <input type="text" id="res6">
+       <button onclick="simpleInterest()">Result</button>
+    </div>
+
+
+    <div id="card7" class="card">
+       <h3>Missing Angle of a Triangle</h3>
+       <label>Enter Angle1 :</label>
+       <input type="text" placeholder="Enter angle1" id="angle1">
+       <label>Enter Angle2 :</label>
+       <input type="text" placeholder="Enter angle2" id="angle2">
+       <label>Missing Angle :</label>
+       <input type="text" id="res7">
+       <button onclick="missingAngle()">Result</button>
+    </div>
+
+    <div id="card8" class="card">
+       <h3>Last Digit of a Number</h3>
+       <label>Enter Number :</label>
+       <input type="text" placeholder="Enter number" id="last_digit">
+       <label>Result:</label>
+       <input type="text" id="res8">
+       <button onclick="lastDigit()">Last Digit</button>
+    </div>
+
+
+    <div id="card9" class="card">
+       <h3>Remove Last Digit of a Number</h3>
+       <label>Enter Number :</label>
+       <input type="text" placeholder="Enter number" id="remove_digit">
+       <label>Result:</label>
+       <input type="text" id="res9">
+       <button onclick="remove_lastDigit()">Remove Last Digit</button>
+    </div>
+    
+
+    <div id="card10" class="card">
+       <h3>First Digit of a 3-Digit Number</h3>
+       <label>Enter Number :</label>
+       <input type="text" placeholder="Enter number" id="first_digit">
+       <label>Result:</label>
+       <input type="text" id="res10">
+       <button onclick="first_digit()">First Digit</button>
+    </div>
+
+
+    <div id="card11" class="card">
+       <h3>First Digit of a 5-Digit Number</h3>
+       <label>Enter Number :</label>
+       <input type="text" placeholder="Enter number" id="five_digit">
+       <label>Result:</label>
+       <input type="text" id="res11">
+       <button onclick="five_digit()">First Digit</button>
+    </div>
+
+
+    <div id="card12" class="card">
+       <h3>Celsius to Fahrenheit</h3>
+       <label>Enter Celsius :</label>
+       <input type="text" placeholder="Enter celsius" id="celsius">
+       <label>Fahrenheit:</label>
+       <input type="text" id="res12">
+       <button onclick="celsius()">Result</button>
+    </div>
+
+
+    <div id="card13" class="card">
+       <h3>Fahrenheit to Celsius</h3>
+       <label>Enter Fahrenheit :</label>
+       <input type="text" placeholder="Enter fahrenheit" id="fahrenheit">
+       <label>Celsius:</label>
+       <input type="text" id="res13">
+       <button onclick="fahrenheit()">Result</button>
+    </div>
+
+
+    <div id="card14" class="card">
+       <h3>Gross Salary using Basic Salary ,HRA,DA</h3>
+       <label>Enter Basic Salary :</label>
+       <input type="text" placeholder="Enter basic salary" id="salary">
+       <label>Enter DA :</label>
+       <input type="text" placeholder="Enter DA" id="da">
+       <label>Enter HRA :</label>
+       <input type="text" placeholder="Enter HRA" id="hra">
+       <label>Gross Salary :</label>
+       <input type="text" id="gross">
+       <button onclick="grossSalary()">Gross Salary</button>
+    </div>
+
+
+    <div id="card15" class="card">
+       <h3>Swap Two Numbers using a Third Variable</h3>
+       <label>Enter Num1 :</label>
+       <input type="text" placeholder="Enter number" id="swap1">
+       <label>Enter Num2 :</label>
+       <input type="text" placeholder="Enter number" id="swap2">
+       <label>Result:</label>
+       <input type="text" id="res15">
+       <button onclick="swapWithThird()">Swap Numbers</button>
+    </div>
+
+
+    <div id="card16" class="card">
+       <h3>Swap Two Numbers without using a Third Variable</h3>
+       <label>Enter Num1 :</label>
+       <input type="text" placeholder="Enter number" id="swap3">
+       <label>Enter Num2 :</label>
+       <input type="text" placeholder="Enter number" id="swap4">
+       <label>Result:</label>
+       <input type="text" id="res16">
+       <button onclick="swapWithoutThird()">Swap Numbers</button>
+    </div>
+
+    <script type="text/javascript" src="task.js"></script>
+</body>
+</html>
